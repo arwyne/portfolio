@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 const Profile = () => {
   return (
     <div className="row profile-row">
-      <div className="col-lg-4 offset-lg-2 profile-col">
+      <div className="col-lg-5 offset-lg-1 profile-col">
         <div className="profile-header">
           <h3 className="sub-heading">Profile</h3>
         </div>
@@ -18,16 +18,13 @@ const Profile = () => {
               />
             </div>
           </Fade>
-          <Fade cascade>
-            <p>
-              I'm a Full Stack Developer and a Registered Mechanical Engineer.
-              Coding is my passion since I was in teenage years but
-              unfortunately my course in college is not related to tech and also
-              my first job. But now I'm pursuing my career now as web developer
-              because I enjoy it a lot. I have done projects in front-end and
-              back-end web.
-            </p>
-          </Fade>
+          <p>
+            I'm a Full Stack Developer and a Registered Mechanical Engineer.
+            Coding is my passion since I was in teenage years but unfortunately
+            my course in college is not related to tech and also my first job.
+            But now I'm pursuing my career now as web developer because I enjoy
+            it a lot. I have done projects in front-end and back-end web.
+          </p>
         </div>
       </div>
       <div className="col-lg-4 profile-col">

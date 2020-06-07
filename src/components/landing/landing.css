@@ -1,0 +1,115 @@
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #17182f;
+  height: 100vh;
+}
+
+.landing-container {
+  position: relative;
+  padding: 0;
+}
+
+.landing-content {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35vh;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.landing-content h1,
+.landing-container h2 {
+  font-size: 2.5rem;
+  font-family: "PT Sans", sans-serif;
+}
+.landing-content span {
+  font-size: 3rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+.landing-content span {
+  color: #61dbfb;
+}
+
+.landing-content a {
+  text-decoration: none;
+}
+
+.landing-content button {
+  min-width: 200px;
+  min-height: 40px;
+  border: solid 1px #61dbfb;
+  color: #61dbfb;
+  margin-top: 30px;
+}
+
+.landing-content button:hover {
+  background-color: #61dbfb;
+  color: #17182f;
+  border: solid 1px #17182f;
+}
+
+/* navbar */
+
+.navbar {
+  border-top: solid 1px #61dbfb;
+  background-color: #17182f;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand span {
+  color: whitesmoke;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+.navbar-brand span:hover {
+  color: #61dbfb;
+}
+
+.logo {
+  max-width: 35px;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: whitesmoke;
+  margin-right: 5px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #61dbfb;
+  text-underline-position: below;
+}
+
+.active {
+  color: #61dbfb;
+}
+
+.toggler-icon {
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 400px) {
+  .landing-content h1,
+  .landing-container h2 {
+    font-size: 2rem;
+  }
+  .landing-content span {
+    display: block;
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}

@@ -1,0 +1,61 @@
+/* contact page */
+
+form {
+  padding: 40px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-color: #e4edf0;
+  max-width: 500px;
+  text-align: center;
+}
+
+form .btn {
+  min-width: 200px;
+  min-height: 40px;
+  color: #61dbfb;
+  margin-top: 30px;
+  background-color: #17182f;
+}
+
+form .btn:hover {
+  background-color: #61dbfb;
+  color: #17182f;
+}
+
+/* footer */
+
+footer {
+  border-top: solid 1px #61dbfb;
+  background-color: #17182f;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.socialmedia-icons {
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-left: 15px;
+}
+
+.socialmedia-icons:hover {
+  color: #61dbfb;
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-header h5 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  form {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: #e4edf0;
+    max-width: 300px;
+  }
+}

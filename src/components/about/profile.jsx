@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 const Profile = () => {
   return (
     <div className="row profile-row">
-      <div className="col-lg-5 offset-lg-1 profile-col">
+      <div className="col-lg-4 offset-lg-2 profile-col">
         <div className="profile-header">
           <h3 className="sub-heading">Profile</h3>
         </div>

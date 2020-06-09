@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Footer from "./footer";
 import "./contact.css";
 import swal from "sweetalert";
-import Fade from "react-reveal/Fade";
 
 class Contact extends Component {
   constructor(props) {
@@ -24,50 +23,48 @@ class Contact extends Component {
             Have a question or want to work together?
           </h5>
         </div>
-        <Fade bottom>
-          <div className="contact-container">
-            <div className="col-lg-4 offset-lg-4">
-              <form action="">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="form-control"
-                    placeholder="Name"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="form-control"
-                    placeholder="Enter email"
-                    required
-                  />
-                </div>
-
-                <textarea
+        <div className="contact-container">
+          <div className="col-lg-4 offset-lg-4">
+            <form action="">
+              <div className="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
                   className="form-control"
-                  name="message"
-                  id="message"
-                  rows="8"
-                  placeholder="Message"
-                ></textarea>
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="form-control"
+                  placeholder="Enter email"
+                  required
+                />
+              </div>
 
-                <button
-                  className="btn"
-                  type="submit"
-                  onClick={this.sweetalertfunction}
-                >
-                  Submit
-                </button>
-              </form>
-            </div>
+              <textarea
+                className="form-control"
+                name="message"
+                id="message"
+                rows="8"
+                placeholder="Message"
+              ></textarea>
+
+              <button
+                className="btn"
+                type="submit"
+                onClick={this.sweetalertfunction}
+              >
+                Submit
+              </button>
+            </form>
           </div>
-        </Fade>
+        </div>
         <Footer />
       </section>
     );

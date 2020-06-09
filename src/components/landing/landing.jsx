@@ -9,8 +9,9 @@ const Landing = () => {
       <div className="container-fluid landing-container" id="home">
         <div className="landing-content">
           <h1>
-            Hello, I'm <span>Arwyne De Guzman</span>
+            <span>Hello, I'm </span>Arwyne De Guzman
           </h1>
+
           <h2>I'm a Full-Stack Web Developer</h2>
           <a href="#about">
             <button href="#about" className="btn">

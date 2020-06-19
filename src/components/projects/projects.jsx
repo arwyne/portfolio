@@ -12,6 +12,32 @@ const Projects = () => {
             <div className="card">
               <div className="card-img-container">
                 <a
+                  href="https://cut-n-shave.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="card-img-top"
+                    src="/images/cutnshave.png"
+                    alt="cutnshave"
+                  />
+                </a>
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Cut 'N' Shave</h5>
+                <p className="card-text">
+                  Created an booking application using the MERN Stack (MongoDB,
+                  Express, ReactJS, NodeJS). This project is about booking of
+                  barbershop online.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-6">
+            <div className="card">
+              <div className="card-img-container">
+                <a
                   href="https://carhub-ph.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"

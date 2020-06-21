@@ -1,10 +1,19 @@
 /* contact page */
 
+.contact-row-container {
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.contact-row-container h5 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
 form {
   padding: 40px;
   border-radius: 20px;
   margin: 0 auto;
-  margin-bottom: 100px;
   background-color: #e4edf0;
   max-width: 500px;
   text-align: center;
@@ -44,6 +53,22 @@ footer {
   color: #61dbfb;
 }
 
+.swal-text {
+  text-align: center;
+}
+
+.swal-button {
+  min-height: 40px;
+  color: #61dbfb;
+  margin-top: 30px;
+  background-color: #17182f;
+}
+
+.swal-button--confirm:hover {
+  background-color: #61dbfb !important;
+  color: #17182f;
+}
+
 @media only screen and (max-width: 400px) {
   .contact-header h5 {
     max-width: 300px;
@@ -54,8 +79,19 @@ footer {
     padding: 20px;
     border-radius: 20px;
     margin: 0 auto;
-    margin-bottom: 100px;
     background-color: #e4edf0;
     max-width: 300px;
+  }
+
+  .location-container {
+    margin-top: 50px;
+    min-height: 400px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .location-container {
+    margin-top: 50px;
+    min-height: 400px;
   }
 }

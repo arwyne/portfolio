@@ -8,7 +8,7 @@ const Profile = () => {
           <h3 className="sub-heading">Profile</h3>
         </div>
         <div className="profile-body">
-          <div className="image-container">
+          <div className="image-container" data-aos="fade" data-aos-delay="100">
             <img
               className="img-fluid profile-img"
               src="/images/profile.png"
@@ -16,7 +16,7 @@ const Profile = () => {
             />
           </div>
 
-          <p>
+          <p data-aos="fade" data-aos-delay="200">
             I'm a Full Stack Developer and a Registered Mechanical Engineer.
             Coding is my passion since I was in teenage years but unfortunately
             my course in college is not related to tech and also my first job.
@@ -31,7 +31,7 @@ const Profile = () => {
         </div>
         <div className="history-body">
           <ul className="timeline-list">
-            <li>
+            <li data-aos="fade-up" data-aos-delay="100">
               <span className="time">2014</span>
               <div className="timeline-content">
                 <img
@@ -46,7 +46,7 @@ const Profile = () => {
                 </p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-delay="200">
               <span className="time">2015</span>
               <div className="timeline-content">
                 <img
@@ -61,7 +61,7 @@ const Profile = () => {
                 </p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-delay="300">
               <span className="time">2020</span>
               <div className="timeline-content">
                 <img
@@ -77,7 +77,7 @@ const Profile = () => {
               </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-delay="400">
               <span className="time">present</span>
               <div className="timeline-content">
                 <img

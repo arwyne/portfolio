@@ -5,6 +5,8 @@ const Standards = () => {
     <div className="row standards-row">
       <div className="col-lg-4 offset-lg-2 col-md-10 offset-md-1 standards-img-container">
         <img
+          data-aos="fade"
+          data-aos-delay="100"
           className="skill-img img-fluid"
           src="/images/standards-img.png"
           alt=""
@@ -17,7 +19,7 @@ const Standards = () => {
         </div>
         <div className="standards-body">
           <ul className="standards-list">
-            <li>
+            <li data-aos="fade-up" data-aos-delay="100">
               <img
                 className="standards-img"
                 src="/images/standards-webstandards.png"
@@ -31,7 +33,7 @@ const Standards = () => {
               </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-delay="200">
               <img
                 className="standards-img"
                 src="/images/standards-responsive.png"
@@ -46,7 +48,7 @@ const Standards = () => {
               </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-delay="300">
               <img
                 className="standards-img"
                 src="/images/standards-ux.png"
@@ -58,7 +60,7 @@ const Standards = () => {
               </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-delay="400">
               <img
                 className="standards-img"
                 src="/images/standards-dynamic.png"
@@ -70,7 +72,7 @@ const Standards = () => {
               </div>
             </li>
 
-            <li>
+            <li data-aos="fade-up" data-aos-delay="500">
               <img
                 className="standards-img"
                 src="/images/standards-hd.png"

@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="projects-container">
         <div className="row projects-row">
           <div className="col-lg-6">
-            <div className="card">
+            <div className="card" data-aos="fade" data-aos-delay="100">
               <div className="card-img-container">
                 <a
                   href="https://cut-n-shave.herokuapp.com/"
@@ -35,7 +35,7 @@ const Projects = () => {
           </div>
 
           <div className="col-lg-6">
-            <div className="card">
+            <div className="card" data-aos="fade" data-aos-delay="100">
               <div className="card-img-container">
                 <a
                   href="https://carhub-ph.herokuapp.com/"
@@ -60,7 +60,7 @@ const Projects = () => {
           </div>
 
           <div className="col-lg-6">
-            <div className="card">
+            <div className="card" data-aos="fade" data-aos-delay="100">
               <div className="card-img-container">
                 <a
                   href="https://covid19quickie.herokuapp.com/"
@@ -86,10 +86,10 @@ const Projects = () => {
           </div>
 
           <div className="col-lg-6">
-            <div className="card">
+            <div className="card" data-aos="fade" data-aos-delay="100">
               <div className="card-img-container">
                 <a
-                  href="https://arwyne.gitlab.io/akyat-ph/home.html"
+                  href="https://arwyne.gitlab.io/akyat-ph/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

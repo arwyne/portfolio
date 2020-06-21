@@ -8,7 +8,11 @@ const Skills = () => {
           <h3 className="sub-heading">Skills</h3>
         </div>
         <div className="skills-body">
-          <div className="frontend-container">
+          <div
+            className="frontend-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <h4>Front-end</h4>
             <div className="frontend-content">
               <div>
@@ -76,7 +80,11 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="backend-container">
+          <div
+            className="backend-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <h4>Back-end</h4>
             <div className="backend-content">
               <div>
@@ -135,7 +143,11 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="tools-container">
+          <div
+            className="tools-container"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <h4>Other Tools</h4>
             <div className="tools-content">
               <div>
@@ -171,6 +183,8 @@ const Skills = () => {
 
       <div className="col-lg-4 offset-lg-0 col-md-10 offset-md-1 skill-img-container">
         <img
+          data-aos="fade"
+          data-aos-delay="100"
           className="skill-img img-fluid"
           src="/images/skills-img.png"
           alt=""

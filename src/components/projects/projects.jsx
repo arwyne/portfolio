@@ -38,7 +38,7 @@ const Projects = () => {
             <div className="card" data-aos="fade" data-aos-delay="100">
               <div className="card-img-container">
                 <a
-                  href="https://carhub-ph.herokuapp.com/"
+                  href="https://carhub.arwynedeguzman.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -63,7 +63,7 @@ const Projects = () => {
             <div className="card" data-aos="fade" data-aos-delay="100">
               <div className="card-img-container">
                 <a
-                  href="https://covid19quickie.herokuapp.com/"
+                  href="http://covid19quickie.arwynedeguzman.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

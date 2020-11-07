@@ -17,6 +17,7 @@ form {
   background-color: #e4edf0;
   max-width: 500px;
   text-align: center;
+  min-height: 470px;
 }
 
 form .btn {
@@ -86,6 +87,8 @@ footer {
   .location-container {
     margin-top: 50px;
     min-height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 

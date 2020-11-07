@@ -14,7 +14,7 @@ import AOS from "aos";
 function App() {
   AOS.init({
     easing: "ease-in",
-    duration: 500,
+    duration: 700,
   });
   return (
     <React.Fragment>

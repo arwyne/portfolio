@@ -1,20 +1,27 @@
-import React from "react";
-import "./landing.css";
-import Particles from "react-particles-js";
-import Nav from "./nav";
+import React from "react"
+import "./landing.css"
+import Particles from "react-particles-js"
+import Nav from "./nav"
 
 const Landing = () => {
   return (
     <React.Fragment>
       <div className="container-fluid landing-container" id="home">
         <div className="landing-content">
-          <h1>
+          <h1 data-aos="zoom-out" data-aos-duration="800">
             <span>Hello, I'm </span>Arwyne De Guzman
           </h1>
 
-          <h2>I'm a Full-Stack Web Developer</h2>
+          <h2 data-aos="zoom-out" data-aos-duration="800">
+            I'm a Full-Stack Web Developer
+          </h2>
           <a href="#about">
-            <button href="#about" className="btn">
+            <button
+              data-aos="zoom-out"
+              data-aos-duration="800"
+              href="#about"
+              className="btn"
+            >
               Learn More
             </button>
           </a>
@@ -136,7 +143,7 @@ const Landing = () => {
 
       <Nav />
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default Landing;
+export default Landing

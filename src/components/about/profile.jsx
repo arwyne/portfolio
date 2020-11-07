@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Profile = () => {
   return (
@@ -8,7 +8,11 @@ const Profile = () => {
           <h3 className="sub-heading">Profile</h3>
         </div>
         <div className="profile-body">
-          <div className="image-container" data-aos="fade" data-aos-delay="100">
+          <div
+            className="image-container"
+            data-aos="fade"
+            data-aos-anchor-placement="top-center"
+          >
             <img
               className="img-fluid profile-img"
               src="/images/profile.png"
@@ -16,7 +20,11 @@ const Profile = () => {
             />
           </div>
 
-          <p data-aos="fade" data-aos-delay="200">
+          <p
+            data-aos="fade"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="100"
+          >
             I'm a Full Stack Developer and a Registered Mechanical Engineer.
             Coding is my passion since I was in teenage years but unfortunately
             my course in college is not related to tech and also my first job.
@@ -31,7 +39,7 @@ const Profile = () => {
         </div>
         <div className="history-body">
           <ul className="timeline-list">
-            <li data-aos="fade-up" data-aos-delay="100">
+            <li data-aos="fade-left" data-aos-delay="100">
               <span className="time">2014</span>
               <div className="timeline-content">
                 <img
@@ -46,7 +54,7 @@ const Profile = () => {
                 </p>
               </div>
             </li>
-            <li data-aos="fade-up" data-aos-delay="200">
+            <li data-aos="fade-left" data-aos-delay="100">
               <span className="time">2015</span>
               <div className="timeline-content">
                 <img
@@ -61,7 +69,7 @@ const Profile = () => {
                 </p>
               </div>
             </li>
-            <li data-aos="fade-up" data-aos-delay="300">
+            <li data-aos="fade-left" data-aos-delay="100">
               <span className="time">2020</span>
               <div className="timeline-content">
                 <img
@@ -77,7 +85,7 @@ const Profile = () => {
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="400">
+            <li data-aos="fade-left" data-aos-delay="100">
               <span className="time">present</span>
               <div className="timeline-content">
                 <img
@@ -92,7 +100,7 @@ const Profile = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Profile;
+export default Profile

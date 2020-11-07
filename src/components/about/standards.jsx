@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Standards = () => {
   return (
@@ -7,6 +7,7 @@ const Standards = () => {
         <img
           data-aos="fade"
           data-aos-delay="100"
+          data-aos-anchor-placement="top-center"
           className="skill-img img-fluid"
           src="/images/standards-img.png"
           alt=""
@@ -19,7 +20,11 @@ const Standards = () => {
         </div>
         <div className="standards-body">
           <ul className="standards-list">
-            <li data-aos="fade-up" data-aos-delay="100">
+            <li
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-anchor-placement="top-center"
+            >
               <img
                 className="standards-img"
                 src="/images/standards-webstandards.png"
@@ -33,7 +38,11 @@ const Standards = () => {
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="200">
+            <li
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-anchor-placement="top-center"
+            >
               <img
                 className="standards-img"
                 src="/images/standards-responsive.png"
@@ -48,7 +57,11 @@ const Standards = () => {
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="300">
+            <li
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-anchor-placement="top-center"
+            >
               <img
                 className="standards-img"
                 src="/images/standards-ux.png"
@@ -60,7 +73,11 @@ const Standards = () => {
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="400">
+            <li
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-anchor-placement="top-center"
+            >
               <img
                 className="standards-img"
                 src="/images/standards-dynamic.png"
@@ -72,7 +89,11 @@ const Standards = () => {
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="500">
+            <li
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-anchor-placement="top-center"
+            >
               <img
                 className="standards-img"
                 src="/images/standards-hd.png"
@@ -87,7 +108,7 @@ const Standards = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Standards;
+export default Standards

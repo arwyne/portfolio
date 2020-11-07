@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Skills = () => {
   return (
@@ -10,8 +10,9 @@ const Skills = () => {
         <div className="skills-body">
           <div
             className="frontend-container"
-            data-aos="fade-up"
+            data-aos="fade-right"
             data-aos-delay="100"
+            data-aos-anchor-placement="top-center"
           >
             <h4>Front-end</h4>
             <div className="frontend-content">
@@ -77,13 +78,23 @@ const Skills = () => {
                 />
                 <p>React</p>
               </div>
+
+              <div>
+                <img
+                  className="skill-icons"
+                  src="/images/icon-redux.png"
+                  alt="icon-redux"
+                />
+                <p>Redux</p>
+              </div>
             </div>
           </div>
 
           <div
             className="backend-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-anchor-placement="top-center"
           >
             <h4>Back-end</h4>
             <div className="backend-content">
@@ -145,8 +156,9 @@ const Skills = () => {
 
           <div
             className="tools-container"
-            data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-anchor-placement="top-center"
           >
             <h4>Other Tools</h4>
             <div className="tools-content">
@@ -176,6 +188,24 @@ const Skills = () => {
                 />
                 <p>GitLab</p>
               </div>
+
+              <div>
+                <img
+                  className="skill-icons"
+                  src="/images/icon-heroku.png"
+                  alt="icon-heroku"
+                />
+                <p>Heroku</p>
+              </div>
+
+              <div>
+                <img
+                  className="skill-icons"
+                  src="/images/icon-cpanel.png"
+                  alt="icon-cpanel"
+                />
+                <p>cPanel</p>
+              </div>
             </div>
           </div>
         </div>
@@ -185,13 +215,14 @@ const Skills = () => {
         <img
           data-aos="fade"
           data-aos-delay="100"
+          data-aos-anchor-placement="top-center"
           className="skill-img img-fluid"
           src="/images/skills-img.png"
           alt=""
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

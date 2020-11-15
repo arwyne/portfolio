@@ -186,11 +186,7 @@
     margin-bottom: 40px;
   }
 
-  .time {
-    margin-left: 90px;
-  }
-
-  .timeline-content {
+  .timeline-list {
     max-width: 500px;
     margin: 0 auto;
   }

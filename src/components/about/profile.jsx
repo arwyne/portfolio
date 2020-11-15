@@ -7,24 +7,20 @@ const Profile = () => {
         <div className="profile-header">
           <h3 className="sub-heading">Profile</h3>
         </div>
-        <div className="profile-body">
-          <div
-            className="image-container"
-            data-aos="fade"
-            data-aos-anchor-placement="top-center"
-          >
+        <div
+          className="profile-body"
+          data-aos="fade"
+          data-aos-anchor-placement="top-center"
+        >
+          <div className="image-container">
             <img
               className="img-fluid profile-img"
-              src="/images/profile.png"
+              src="/images/profile.jpg"
               alt="Arwyne De Guzman"
             />
           </div>
 
-          <p
-            data-aos="fade"
-            data-aos-anchor-placement="top-center"
-            data-aos-delay="100"
-          >
+          <p>
             I'm a Full Stack Developer and a Registered Mechanical Engineer.
             Coding is my passion since I was in teenage years but unfortunately
             my course in college is not related to tech and also my first job.

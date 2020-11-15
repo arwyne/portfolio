@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Footer = () => {
   return (
@@ -31,11 +31,19 @@ const Footer = () => {
         >
           <i className="fab fa-linkedin socialmedia-icons"></i>
         </a>
+
+        <a
+          href="https://github.com/arwyne"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github socialmedia-icons"></i>
+        </a>
       </div>
 
       <div>&copy; 2020 Arwyne De Guzman. All Rights Reserved.</div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
